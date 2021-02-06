@@ -1,0 +1,38 @@
+{
+	"name": "jsx-ast-transformer",
+	"main": "jsx-ast-transformer.js",
+	"description": "Transforms JSX AST into regular JS AST",
+	"version": "0.8.1",
+	"homepage": "https://github.com/ZimNovich/jsx-ast-transformer",
+	"license": "MIT",
+	"author": {
+		"name": "Ilya Zimnovich",
+		"email": "zimnovich@gmail.com"
+	},
+	"keywords": [
+		"jsx",
+		"react",
+		"transpile",
+		"transpiler",
+		"transform",
+		"ast",
+		"vdom",
+		"javascript"
+	],
+	"dependencies": {
+		"estree-walker": "^2.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ZimNovich/jsx-ast-transformer"
+	},
+	"bugs": {
+		"url": "https://github.com/ZimNovich/jsx-ast-transformer/issues"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"files": [
+		"jsx-ast-transformer.js"
+	]
+}
